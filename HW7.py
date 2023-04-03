@@ -1,8 +1,8 @@
 
-# Your name:
-# Your student id:
-# Your email:
-# List who you have worked with on this project:
+# Your name: emy klepacki
+# Your student id: 5516 6246
+# Your email: klepacki@umich.edu
+# List who you have worked with on this project: no one
 
 import unittest
 import sqlite3
