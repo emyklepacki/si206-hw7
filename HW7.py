@@ -57,7 +57,7 @@ def make_players_table(data, cur, conn):
     cur.execute("CREATE TABLE IF NOT EXISTS Players (id INTEGER PRIMARY KEY, name TEXT, position_id INTEGER, birthyear INTEGER, nationality TEXT)")
     for player in data['squad']:
         p = player.get('position')
-        # note: originally had this line of code, but kept causing unknown errors:
+        # note: originally had this line of code (and modified versions), but kept causing unknown errors:
         # pos_id = cur.execute('SELECT id FROM Positions WHERE position = (?)', (p, )) 
         #so using if else statements instead 
 
